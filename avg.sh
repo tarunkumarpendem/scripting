@@ -6,7 +6,6 @@ read -p "Enter Maths marks: " Maths
 read -p "Enter Science marks: " Science
 read -p "Enter Social marks: " Social
 
-
 echo Secured marks in Telugu: $Telugu
 echo Secured marks in Hindi: $Hindi
 echo Secured marks in English: $English

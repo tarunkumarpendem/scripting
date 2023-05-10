@@ -1,6 +1,9 @@
 #!/bin/bash
+
+###############################################
 # Kubernetes admin (kubeadm) installation
 # ----------------------------------------
+################################################
   # Install docker in all the nodes
   # --------------------------------
 apt update
@@ -25,7 +28,8 @@ sed -i -e 's,/usr/bin/cri-dockerd,/usr/local/bin/cri-dockerd,' /etc/systemd/syst
 systemctl daemon-reload
 systemctl enable cri-docker.service
 systemctl enable --now cri-docker.socket
-  ----
+
+
 # Install kubeadm 
 # ----------------
 apt update

@@ -1,4 +1,9 @@
 #!/bin/bash
+
+#########################################################################
+# Installing Jenkins using java 11
+#########################################################################
+
 sudo apt update
 sudo apt install openjdk-11-jdk -y
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
